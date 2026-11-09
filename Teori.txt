@@ -15,3 +15,30 @@ Tre ting er verdt å kunne:
 = betyr tilordning, ikke «er lik»: Python regner først ut høyresiden og knytter deretter navnet på venstresiden til resultatet. Derfor gir alder = alder + 1 mening i kode, selv om det ville vært feil som matematisk ligning.
 Verdien kan byttes ut: Det er derfor det heter variabel. Du kan også gi navnet en verdi av en annen type, for eksempel alder = "ung", fordi det er verdien og ikke navnet som har en datatype i Python.
 Lapp er et bedre bilde enn boks: Python Crash Course beskriver variabler som merkelapper på verdier. Bildet av en boks er vanlig, men lappen passer bedre med hvordan Python faktisk virker, og det får betydning når du kommer til lister.
+
+Hvilke datatyper er de følgende verdiene? Begrunn svarene dine (en setning eller to per verdi).
+
+1. a) "Hamburger"
+2. b) 5.52
+3. c) 4195
+4. d) False
+
+Verdi	Datatype	Begrunnelse
+a) "Hamburger"	str (streng)	Den står i anførselstegn, og det gjør verdien til tekst.
+b) 5.52	float (desimaltall)	Det er et tall med desimaldel, skrevet med punktum.
+c) 4195	int (heltall)	Det er et tall uten desimaldel og uten anførselstegn.
+d) False	bool (sannhetsverdi)	Det er et av Pythons to nøkkelord for sant og usant, True og False. Det står uten anførselstegn og med stor forbokstav.
+
+print(type("Hamburger"))  # <class 'str'>
+print(type(5.52))         # <class 'float'>
+print(type(4195))         # <class 'int'>
+print(type(False))        # <class 'bool'>
+
+Din tur: Hvilken datatype har disse, eller hva går galt? Svar før du kjører dem.
+
+"4195"
+4195.0
+"False"
+false
+10 / 2
+10 // 2
