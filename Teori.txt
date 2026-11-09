@@ -1,0 +1,17 @@
+### Teori
+
+**Teorioppgave 1 - Variabel:**
+
+1. Forklar med egne ord hva en variabel er.
+
+En variabel er et navn som viser til en verdi, slik at programmet kan bruke verdien senere. I stedet for å skrive verdien direkte overalt, gir du den et navn og bruker navnet.
+
+alder = 25          # navnet alder viser nå til verdien 25
+print(alder + 1)    # skriver ut 26, men alder er fortsatt 25
+alder = 26          # navnet viser nå til en ny verdi
+
+Tre ting er verdt å kunne:
+
+= betyr tilordning, ikke «er lik»: Python regner først ut høyresiden og knytter deretter navnet på venstresiden til resultatet. Derfor gir alder = alder + 1 mening i kode, selv om det ville vært feil som matematisk ligning.
+Verdien kan byttes ut: Det er derfor det heter variabel. Du kan også gi navnet en verdi av en annen type, for eksempel alder = "ung", fordi det er verdien og ikke navnet som har en datatype i Python.
+Lapp er et bedre bilde enn boks: Python Crash Course beskriver variabler som merkelapper på verdier. Bildet av en boks er vanlig, men lappen passer bedre med hvordan Python faktisk virker, og det får betydning når du kommer til lister.
