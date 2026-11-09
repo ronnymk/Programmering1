@@ -1,3 +1,4 @@
 with open('Teori.txt') as file:
     content = file.read()
-print(content)
+content_capitalized = content.upper()
+print(content_capitalized)
